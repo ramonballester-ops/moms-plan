@@ -1,0 +1,14 @@
+{
+  "name": "Mom's Plan",
+  "short_name": "Mom's Plan",
+  "description": "Private family document",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF7F0",
+  "theme_color": "#0F6E56",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
