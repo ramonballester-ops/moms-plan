@@ -1,6 +1,6 @@
 /* Mom's Plan — service worker. Network-first for the shell and data (so updates
    land immediately), cache-first for the static library and icons. */
-const VERSION = "2026-09-25T03:36Z-v1.3.0";
+const VERSION = "2026-09-25T03:47Z-v1.3.1";
 const CACHE = "moms-plan-" + VERSION;
 const PRECACHE = ["./", "./index.html", "./chart.umd.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-180.png"];
 const NETWORK_FIRST = /(\/$|index\.html$|data\.enc\.json)/;
